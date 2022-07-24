@@ -1,0 +1,2125 @@
+@CHARSET "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,900,700italic,700,400italic,300italic,300,900italic);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+@import url(https://fonts.googleapis.com/css?family=Arimo);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(https://fonts.googleapis.com/css?family=Abel);
+@import url(https://fonts.googleapis.com/css?family=Lato:100italic,100,300italic,300,400italic,400,700italic,700,900italic,900);
+
+#heading
+{
+	background:url('images/top2.png') repeat-x fixed 0 0;
+	height:80px;
+	width:1366px;
+	top:0px;
+	position:fixed;
+	padding-top:0px;
+}
+
+#heading .nvsu
+{
+	float:left;
+	margin-top:5px;
+	margin-left:5px;
+}
+
+body
+{
+	background:#0091dd url("http://cas.nvsu.edu.ph/images/bg.jpg") no-repeat center center fixed;
+	padding:0 auto;
+	margin:-10px 0 -10px 0;
+	line-height:100%;
+	color:#ececec;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#container
+{
+	margin:0 auto;
+	width:1050px;
+	height:auto;
+	padding:0px 8px 0px 8px;
+	border:1px none white;
+	background-color:#c8c8c8;
+	box-shadow:0px 3px 5px 3px #252525;
+	border-radius:0px 0px 0 0;
+}
+
+#chat
+{
+	width:200px;
+	height:300px;
+	border:1px solid white;
+}
+
+#logo{
+	background:url("http://cas.nvsu.edu.ph/images/header.jpg");
+	width:auto;
+	height:80px;
+	/*border-top:2px solid #252525;
+	border-left:2px solid #252525;
+	border-right:2px solid #252525;
+	border-radius:10px 10px 0 0;*/
+	padding-top:8px;
+	padding-right:10px;
+	text-align:left;
+	background-repeat: repeat-x;
+}
+
+#top_nav
+{
+	background:url("http://cas.nvsu.edu.ph/images/top_bar_final.png") no-repeat;
+	width:auto;
+	height:94px;
+	margin-top:0 auto;
+	padding-left:0px;
+	font-family:"Arimo","Lao UI", helvetica, sans-serif;
+}
+
+#logo .date
+{
+	float:right;
+	margin-right:165px;
+	width:auto;
+	font-family:"Lao UI", helvetica, sans-serif;
+
+}
+
+#logo table
+{
+	font-family:'Varela', arial, sans-serif;
+	font-size:13px;
+	padding:0 0 0 0;
+	float:right;
+	margin-top: 20px;
+}
+#logo .login
+{
+	width:auto;
+	height:25px;
+	font:bold 12px helvetica,arial,sans-serif;
+	background-color:#406618;
+	color:#ececec;
+	border:1px solid #ececec;
+	cursor:pointer;
+}
+
+#logo .login:hover
+{
+	width:auto;
+	height:25px;
+	font:bold 12px helvetica,arial,sans-serif;
+	background-color:#FFBF00;
+	color:#ececec;
+	border:1px solid #ececec;
+	cursor:pointer;
+}
+
+#logo .textfield
+{
+	border:1px solid black;
+	width:150px;
+	height:20px;
+	font-size:12px;
+	padding-left:5px;
+	/*background:#ececec url('images/search.png') no-repeat top right;*/
+	padding-right:35px;
+}
+
+#banner
+{
+	background:url("http://cas.nvsu.edu.ph/images/banner_final.png") no-repeat;
+	width:auto;
+	height:192px;
+	margin-top:-25px;
+}
+
+#banner .logo
+{
+	margin:30px 0 0 5px;
+	float:left;
+}
+
+#banner .banner
+{
+	padding-top:25px;
+	float:left auto;
+}
+
+#top_nav nav ul ul 
+{
+	display: none;
+	z-index: 99999;
+}
+
+#top_nav nav ul li:hover > ul 
+{
+	display: block;
+}
+
+#top_nav nav
+{
+
+}
+
+#top_nav nav img
+{
+	float:left;
+}
+
+#top_nav nav ul {
+    padding: 10px 10px 0 10px;
+    list-style: none;
+    display: flex;
+    font-size: 10px;
+    flex-direction: row;
+}
+	
+#top_nav nav ul li
+{
+	float: left;	
+}
+
+#top_nav nav ul li:hover {
+	background: #4b545f;
+	background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+	background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+	background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+}
+
+#top_nav nav ul li:hover a 
+{
+	color: #fff;
+}
+	
+#top_nav nav ul li a 
+{
+	display: block; 
+	padding: 8px 14px 8px 14px;
+	color: #fff; 
+	text-decoration: none;
+	/*border-right: 1px solid #333333;*/
+}
+
+#top_nav nav ul ul 
+{
+	background: #5f6975;
+	border-radius: 0px;
+	padding: 0;
+	position: absolute; 
+}
+
+#top_nav nav ul ul li 
+{
+	float: none; 
+	border-top: 1px solid #6b727c;
+	border-bottom: 1px solid #575f6a;
+	position: relative;
+
+}
+
+#top_nav nav ul ul li a 
+{
+	padding: 10px 15px;
+	color: #fff;
+	font-size:11px;
+	width:auto;
+	border-right: none;
+}	
+
+#top_nav nav ul ul li a:hover 
+{
+	background: #4b545f;
+	border-right: none;
+}
+
+#top_nav nav ul ul ul {
+	position: absolute;
+	left: 100%; 
+	top:0; 
+	width:auto;
+}
+
+#top_nav nav ul li ul li ul
+{
+	padding: 0px 0px;
+	color: #fff;
+	font-size:11px;
+	width:200px;
+}	
+
+#top_nav nav ul ul ul li a:hover 
+{
+	background: #4b545f;
+}
+
+#top_nav .arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid white;
+  float:right;
+  margin-top:3px;
+}
+
+#box .arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid white;
+  float:left;
+  margin-top:3px;
+}
+
+#top_nav .arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid white;
+  float:right;
+  margin-left:5px;
+  margin-top:5px;
+}
+
+#top_nav img
+{
+	width: 15px;
+	height: 15px;
+}
+#signup
+{
+	margin:57px 120px 0 0;
+	float:right;
+}
+
+#google
+{
+	margin:-58px 0 0 0;
+	float:right;
+}
+
+#main
+{
+	width:auto;
+	height:auto;
+	margin:0px 0 0px 0;
+	margin-top:0px;
+	background:url("images/inside.png") repeat-y;
+	
+}
+
+#content
+{
+	background:url("http://cas.nvsu.edu.ph/images/inside.png") repeat-y;
+	height:auto;
+	width:685px;
+	float:left;
+	padding:15px 20px 0px 15px;
+	color:black;
+}
+
+#content .title-h3
+{
+	border-bottom:1px dotted black;
+	font-size:22px;
+	margin-top:0px;
+	font-family: "Varela",serif;
+	padding-bottom:5px;
+}
+
+#content .title-h4
+{
+	font-size:18px;
+	font-family: "Varela",serif;
+}
+#content .title-h5
+{
+	font-size:15px;
+	font-family: "Varela",serif;
+}
+
+#content .title-h2
+{
+	border-bottom:1px dotted black;
+	font:18px georgia,serif;
+	margin-top:0px;
+	margin-left:10px;
+}
+#content .para-intro
+{
+	padding-right:0px;
+	float:auto left;
+	font:15px "Lato",verdana,sans-serif;
+	width:auto;
+	text-align: justify;
+}
+#content .alpha
+{
+	width:20px;
+	padding:2px;
+	margin-bottom:10px;
+	font-weight:bold;
+	margin-top:10px;
+}
+
+#content .alpha td
+{
+	width:20px;
+	border:1px solid gray;
+	padding:5px 5.5px 5px 5.5px;
+}
+#content .alpha a:link
+{
+	
+	font:bold 13px  verdana,sans-serif;
+}
+#content .alpha a:hover td:hover
+{
+	background-color:lightgray;
+	text-decoration:none;
+	color:orange;
+}
+
+#content .table-list
+{
+	border:1px solid gray;
+	width:600px;
+	padding:0px;
+	margin:10px 10px 10px 20px;
+}
+#content .table-list td
+{
+	border:1px solid gray;
+	padding:8px;
+}
+#content .table-list th
+{
+	border:1px solid gray;
+	font-size:15px;
+	font-family:georgia,serif;
+	font-weight:bold;
+	background:yellow url('images/bar.png') repeat-x;
+}
+#content .table-officer
+{
+	border:1px solid #cae8ea;
+	width:500px;
+	padding:0px;
+	margin:10px 10px 10px 20px;
+	border-radius:5px;
+}
+#content .table-officer td
+{
+	border:1px solid #cae8ea;
+	font-family:verdana,sans-serif;
+	font-size:11px;
+}
+#content .table-officer th
+{
+	border:1px none gray;
+	font-size:15px;
+	font-family:verdana,sans-serif;
+	font-weight:bold;
+	background:#cae8ea url('images/top2s.png') repeat-x;
+	text-align:left;
+	color:#252525;
+}
+#content .table-faculty
+{
+	border:1px solid #cae8ea;
+	width:auto;
+	padding:0px;
+	margin:10px 10px 10px 20px;
+	border-radius:5px;
+}
+#content .table-faculty td
+{
+	border:1px solid #cae8ea;
+	font-family:verdana,sans-serif;
+	font-size:12px;
+	padding:5px;
+}
+#content .table-faculty th
+{
+	border:1px none gray;
+	font-size:14px;
+	font-family:verdana,sans-serif;
+	font-weight:bold;
+	background:#cae8ea url('images/top2s.png') repeat-x;
+	text-align:left;
+	color:#252525;
+	padding-right:10px;
+}
+#content .news .officer
+{
+	margin:5px 10px 5px -10px;
+	height:100px;
+	width:100px;
+	float:left;
+	border:5px solid #d9d9d9;
+	background-color:#c7b299;
+	border-radius:5px 5px 5px 5px;
+}
+#content .pictures
+{
+	float:left;
+	margin-right:10px;
+	border-radius:8px;
+	border:1px none #252525;
+	height:180px;
+	width:180px;
+	background-color:white;
+	padding:5px;
+}
+
+#chart
+{
+	background:url("images/inside.png") repeat-y;
+	height:auto;
+	width:890px;
+	float:left;
+	padding:15px 20px 0px 15px;
+}
+
+#struc
+{
+	width:auto;
+	height:auto;
+	margin:0 0 0 0;
+	margin-top:0px;
+	background: white url("images/inside.png") repeat-y;
+}
+
+#content .news
+{
+	width:auto;
+	border:1px none black;
+	height:auto;
+	padding-top:0px;
+	margin-bottom:30px;
+}
+
+#content ul li
+{
+	font-family:'Lato', 'Droid Serif', Verdana, Georgia, serif;
+	font-size:16px;
+	line-height: 150%;
+	width:auto;
+	color:black;
+	letter-spacing: normal;
+	text-align: left;
+
+}
+
+#content ol li
+{
+	font-family:'Lato', 'Droid Serif', Verdana, Georgia, serif;
+	font-size:16px;
+	line-height: normal;
+	width:auto;
+	color:black;
+	letter-spacing: normal;
+	text-align: left;
+}
+
+
+#content .title
+{
+	margin-top:20px;
+	background-color:#e58d07;
+	border-radius:0 20px 0 0; 
+	width:350px;
+	height:auto;
+	padding:15px 10px 3px 10px;
+	font-family:cambria,"Lao UI", helvetica, sans-serif;
+	text-transform:uppercase;
+	background-image: url('images/content-title.jpg');
+}
+#chart .title
+{
+	margin-top:20px;
+	background-color:#e58d07;
+	border-radius:0 20px 0 0; 
+	border:1px solid black;
+	width:370px;
+	height:auto;
+	padding:15px 10px 3px 10px;
+	font-family:cambria,"Lao UI", helvetica, sans-serif;
+	text-transform:uppercase;
+}
+#chart table
+{
+	color:black;
+	font-family:"Lao UI", helvetica, sans-serif;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#chart small
+{
+	color:black;
+	font-family:"Lao UI", helvetica, sans-serif;
+	font-size:10px;
+}
+#chart td
+{
+	text-align:center;
+	width:150px;
+	padding:0px 0 10px 0;
+	border-left:1px none black;
+	background:url('images/connector.png') repeat-y;
+}
+#chart tr
+{
+	padding:0px 0 0px 0;
+	border:1px solid black;
+	
+}
+#chart p
+{
+	width:auto;
+}
+
+#chart h2.titlenews
+{
+	color:#8dc63f;
+	text-decoration:none;
+	color:#fff;
+	font-weight:normal;
+	font-size:22px;
+	font-family:"lithos pro","Lao UI", helvetica, sans-serif;
+}
+#content h2.titlenews
+{
+	color:#8dc63f;
+	text-decoration:none;
+	color:#fff;
+	font-weight:normal;
+	font-size:24px;
+	font-family:georgia,"lithos pro","Lao UI", helvetica, sans-serif;
+
+}
+
+#content .view
+{
+	color:#000000;
+	font-family:helvetica,arial,sans-serif;
+	border:1px solid gray;
+	width:95%;
+	padding:2px 2px 2px 2px;
+}
+
+#content .tbl
+{
+	color:#000000;
+	font-family:helvetica,arial,sans-serif;
+	border:1px solid gray;
+	width:95%;
+	padding:2px 2px 2px 2px;
+}
+
+#content .tbl td
+{
+	font-size:11px;
+	border:1px solid gray;
+	padding:0 2px 0 2px;
+	text-align:center;
+}
+
+#content .tbl th
+{
+	font-size:14px;
+	/*border:1px solid gray;*/
+	text-transform:uppercase;
+	padding:5px 10px 5px 10px;
+
+}
+
+#content .view th
+{
+	font-size:14px;
+	/*border:1px solid gray;*/
+	text-transform:uppercase;
+	padding:5px 12px 5px 12px;
+	width:auto;
+}
+
+#content .view td
+{
+	font-size:11px;
+	border:1px solid gray;
+	padding:0 2px 0 2px;
+	text-align:center;
+}
+
+#content .row
+{
+	width:auto;
+	padding:0;
+}
+
+#content table 
+{
+	color:#000000;
+	font-family:"lao ui",arial,sans-serif;
+	padding:15px 0 20px 0;
+	width:auto;
+}
+
+#content .info 
+{
+	color:#000000;
+	font-family:"lao ui",arial,sans-serif;
+	padding:20px 0px 20px 0;
+	width:auto;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+
+#content .info td
+{
+	font-size:13px;
+	padding:3px 15px 0 15px;
+	text-transform:none;
+}
+
+#content .info th
+{
+	background:gray;
+	background-color:#4b545f;
+	color:white;
+	font-family:"lao ui",arial,sans-serif;
+	font-size:15px;
+	border-radius:5px 5px 0 0;
+	text-align:left;
+	padding:5px 0 5px 15px;
+	text-transform:uppercase;
+}
+
+#content .org 
+{
+	color:#000000;
+	font-family:"lao ui",arial,sans-serif;
+	padding:20px 0px 20px 0;
+	
+	margin-bottom:5px;
+	margin-top:5px;
+}
+
+#content .org td
+{
+	font-size:13px;
+	padding:3px 15px 0 15px;
+	text-transform:none;
+}
+
+#content .org th
+{
+	background:gray;
+	background-color:#4b545f;
+	color:white;
+	font-family:"lao ui",arial,sans-serif;
+	font-size:15px;
+	text-align:left;
+	padding:5px 0 5px 15px;
+	text-transform:uppercase;
+	width:400px;
+	border-radius:5px 5px 0 0;
+}
+
+#content td
+{
+	font-size:14px;
+	padding:3px 0 0 20px;
+	text-transform:none;
+}
+
+#content th
+{
+	padding:10px 0 8px 8px;
+	background:gray;
+	background-image:url('images/footer.png');
+	color:white;
+	font-family:helvetica;
+	font-size:18px;
+	width:auto;
+}
+
+#content p.search
+{
+	font-family:helvetica,arial,sans-serif;
+	font-size:18px;
+	line-height:12pt;
+	width:auto;
+	padding-right:30px;
+	padding-left:20px;
+}
+
+#content .news p
+{
+	font-family:'Lato', 'Droid Serif', Verdana, Georgia, serif;
+	font-size:17px;
+	line-height: 130%;
+	width:auto;
+	padding-right:20px;
+	text-align:left;
+	padding-left:10px;
+	padding-top:10px;
+	color:black;
+	letter-spacing: normal;
+	text-align: left;
+}
+
+#content p
+{
+	font-family:'Lato', 'Droid Serif', Verdana, Georgia, serif;
+	font-size:17px;
+	line-height: normal;
+	width:auto;
+	color:black;
+	letter-spacing: normal;
+	text-align: left;
+}
+
+#content .news .para
+{
+	font-family:"Lao UI",helvetica,arial,sans-serif;
+	font-size:14px;
+	line-height:normal;
+	width:auto;
+	padding-right:20px;
+	text-align:left;
+	padding-left:10px;
+	margin-top:0px;
+	color:black;
+}
+
+#content .news .small
+{
+	font-family:verdana,helvetica,arial,sans-serif;
+	font-size:9px;
+	width:auto;
+	color:black;
+	margin-bottom:30px;
+	margin-top:px;
+	margin-left:10px;
+	letter-spacing:0.5px;
+}
+
+#content .option
+{
+	border:1px none #c4c4c4;
+	width:auto;
+	height:20px;
+	font-size:12px;
+	padding-left:3px;
+	border:1px solid #c4c4c4;
+}
+
+#content .login
+{
+	width:auto;
+	height:30px;
+	font:bold 12px helvetica,arial,sans-serif;
+	background:#406618 url('images/footer3.png') repeat-x;
+	color:#ececec;
+	border:1px solid #000000;
+	cursor:pointer;
+}
+#content .login:hover
+{
+	width:auto;
+	height:30px;
+	font:bold 12px helvetica,arial,sans-serif;
+	background:#406618 url('images/footer.png') repeat-x;
+	color:#ececec;
+	border:1px solid #000000;
+	cursor:pointer;
+}
+#content a
+{
+	text-decoration:none;
+}
+
+#content .news h1
+{
+	color:#000;
+	margin-bottom:10px;
+	
+	font-family: "Abel", "Lato", Verdana, "Lao UI", sans-serif;
+	font-size:26pt;
+	font-weight:normal;
+	line-height:100%;
+}
+
+#content .news h1 a:link
+{
+	color:#000;
+	margin-bottom:10px;
+	margin-left:10px;
+	font-family: "Abel", "Lato", Verdana, "Lao UI", sans-serif;
+	font-size:26pt;
+	font-weight:normal;
+	line-height:100%;
+}
+
+#content .news h1 a:hover
+{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#content .news .image
+{
+	margin-top:25px;
+	margin-left:10px;
+	max-width: 100%;
+    height: 180px;
+	margin-right:10px;
+	margin-bottom:5px;
+	float:left;
+	border:5px solid #d9d9d9;
+	background-color:#c7b299;
+	border-radius:5px 5px 5px 5px;
+}
+
+#content .news .logo
+{
+	margin-top:5px;
+	margin-left:10px;
+	height:150px;
+	width:150px;
+	margin-right:15px;
+	margin-bottom:5px;
+	float:left;
+	border:1px solid black;
+}
+
+#content .textfield
+{
+	border:1px solid #c4c4c4;
+	width:250px;
+	height:25px;
+	font-size:12px;
+	padding-left:3px;
+	font-family:cambria,serif;
+}
+
+#content .username
+{
+	border:1px solid #c4c4c4;
+	width:250px;
+	height:20px;
+	font-size:12px;
+	padding-left:3px;
+}
+#sidebar a
+{
+	text-decoration:none;
+	color:#406618;
+	font-weight:bold;
+}
+#sidebar a:hover
+{
+	color:orange;
+	font-weight:bold;
+}
+#sidebar p
+{
+	font-size:12px;
+	width:auto;
+	color:#ececec;
+	text-align:normal;
+	padding-right:15px;
+
+}
+p
+{
+	font:normal 11px helvetica,arial,sans-serif;
+	color:#000000;
+	width:680px;
+}
+p.mission
+{
+	font:normal 14px helvetica,arial,sans-serif;
+	color:#000000;
+	width:600px;
+}
+
+.text
+{
+	font:normal 12px helvetica,arial,sans-serif;
+	width:680px;
+}
+
+.object
+{
+	padding:15px 5px 5px 5px;
+	width:680px;
+}
+
+#sidebar
+{
+	background:url("http://cas.nvsu.edu.ph/images/sidebar.png") repeat;
+	height:auto;
+	width:328px;
+	margin-left:auto;
+	float:left auto;
+}
+
+#box
+{
+	background:url("http://cas.nvsu.edu.ph/images/box1-cas.png") repeat-x;
+	width:auto;
+	margin-top:0px;
+	font-family: Cambria, georgia,serif;
+	height: auto;
+}
+#box .image-icons
+{
+	padding-left:8px;
+	padding-top:12px;
+	height: 30px;
+	width: 30px;
+}
+#box p
+{
+	padding:10px 15px 15px 15px;
+	font-family:cambria,georgia,serif;
+	line-height:none;
+	font-size:14px;
+}
+#box small
+{
+	font-family:helvetica,arial,sans-serif;
+	font-size:10px;
+	width:auto;
+	color:white;
+	padding-left:20px;
+}
+#box a
+{
+	font-family:arial;
+	font-size:12px;
+	color:yellowgreen;
+}
+#box h4
+{
+	text-align:left;
+	padding-top:0px;
+	padding-left:45px;
+	font-family:"Arimo", georgia,serif;
+	font-size:16pt;
+	font-weight:normal;
+	margin-top:-30px;
+	line-height: 100%;
+	text-shadow:1px 1px 2px black;
+}
+#box h3
+{
+	text-align:center;
+	padding-top:15px;
+
+}
+#box img
+{
+	float:left auto;
+	clear:both;
+	padding:8px 0 0 0;
+	width:30px;
+	height: 30px;
+}
+#box table
+{
+	padding:auto 10px;
+	font-size:12px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#box .textfield
+{
+	border:1px solid #8dc63f;
+	width:160px;
+	height:20px;
+	font-size:11px;
+	padding-left:25px;
+	background-color:#ececec;
+	color:#406618;
+	font-weight:bold;
+	font-family:helvetica,arial,sans-serif;
+	background:#ececec url("images/user.ico") no-repeat -10px -5px;
+}
+#box .textfield2
+{
+	border:1px solid #8dc63f;
+	width:160px;
+	height:20px;
+	font-size:11px;
+	padding-left:25px;
+	background-color:#ececec;
+	color:#406618;
+	font-weight:bold;
+	font-family:helvetica,arial,sans-serif;
+	background:#ececec url("images/lock.ico") no-repeat -10px -5px;
+}
+
+#box .login
+{
+	width:82px;
+	height:35px;
+	font:bold 15px helvetica,arial,sans-serif;
+	color:#ececec;
+	text-align:right;
+	cursor:pointer;
+	background:#406618 url("images/login.ico") no-repeat left center;
+	border:1px solid white;
+}
+#box .logout
+{
+	width:95px;
+	height:35px;
+	font:bold 15px helvetica,arial,sans-serif;
+	color:#ececec;
+	text-align:right;
+	cursor:pointer;
+	background:#406618 url("images/login.ico") no-repeat left center;
+	border:1px solid white;
+
+}
+#box ul
+{
+	
+	border-left:none;
+	padding-top:8px;
+	padding-right:10px;
+	padding-bottom:8px;
+	padding-left:35px;
+	list-style:disc;
+	color:#2ECC71;
+	margin-top: -10px;
+	font-size:16pt;
+}
+
+#box ul li
+{
+	border-bottom:1px dotted #454545;
+	width:auto;
+	padding:5px 8px 2px 2px;
+	height:auto;
+	
+}
+#box ul li a:hover
+{
+	color:green;
+	text-decoration:none;
+	/*text-shadow:1px 1px 2px gray;*/
+}
+#box ul li a
+{
+	font-size:9pt;
+	font-family:Arimo, Verdana, "Lao UI", arial, sans-serif;
+}
+#box img
+{
+	padding:0 0 4px 0;
+}
+
+
+#box .upcoming
+{
+	padding-bottom: 15px;
+	text-align: center;
+}
+#box .upcoming p
+{
+	text-align: center;
+}
+
+#box .upcoming ul
+{
+	list-style: none;
+	height: auto;
+}
+#box .upcoming ul li
+{
+	border-bottom-style: none;
+	margin-bottom: 5px;
+}
+
+#box .upcoming img
+{
+	width:100px;
+	height: 100px;
+	border-radius: 5px 5px 5px 5px;
+	border:3px solid white;
+}
+
+#box img.bday
+{
+	width:150px;
+	height: 150px;
+	border-radius: 5px 5px 5px 5px;
+	border:3px solid white;
+}
+
+textarea
+{
+	width:650px;
+	height:150px;
+	font:12px cambria,helvetica,arial,sans-serif;
+	padding-left:5px;
+	padding-top:5px;
+	border:1px solid #c4c4c4;
+	background-color:#cdedfa;
+}
+
+#content.tblnews
+{
+	padding-left:5px;
+	width:60%;
+}
+#content.article
+{
+	width:auto;
+}
+
+input.file
+{
+	border:1px solid #c4c4c4;
+	height:25px;
+	font-size:12px;
+	background-color: #D8F781;
+	margin-bottom:8px;
+}
+
+div.img
+{
+  margin:5px 10px 5px 5px;
+  border:1px solid lightgray;
+  height:220px;
+  width:140px;
+  float:left;
+  text-align:center;
+  padding:5px;
+}
+
+div.gallery
+{
+  margin:5px 10px 5px 25px;
+  border:1px solid lightgray;
+  height:220px;
+  width:280px;
+  float:left;
+  text-align:center;
+  padding:5px;
+}
+div.mypic
+{
+  margin:5px 5px 5px 5px;
+  border:1px solid lightgray;
+  height:auto;
+  width:auto;
+  float:left;
+  text-align:center;
+  padding:5px;
+}
+div.mypic img
+{
+  display:inline;
+  margin:5px;
+  border:1px solid #ffffff;
+  width:170px;
+
+}
+div.mypic a:hover img
+{
+	border:1px solid #235529;
+}
+
+div.img img
+{
+  display:inline;
+  margin:5px;
+  border:1px solid #ffffff;
+  width:120px;
+  height:180px;
+
+}
+div.img a:hover img
+{
+	border:1px solid black;
+}
+div.caption
+{
+  text-align:center;
+  font:normal 11px  verdana,sans-serif;
+  width:auto;
+  margin-top:0px;
+  padding:0;
+  color:black;
+}
+div.pics
+{
+  margin:5px 5px 0px 25px;
+  border:1px solid lightgray;
+  height:100px;
+  width:260px;
+  float:left;
+  text-align:center;
+  padding:5px;
+}
+div.pics img
+{
+  display:inline;
+  margin:5px;
+  border:1px solid #ffffff;
+  height:80px;
+  width:240px;
+  
+
+}
+div.pics a:hover img
+{
+border:1px ridge #235529;
+
+
+}
+/*div.label
+{
+  text-align:center;
+  font:30px normal arial,serif;
+  width:auto;
+  margin-top:-65px;
+}*/
+div.jobs
+{
+  margin:5px 15px 10px 35px;
+  border:1px solid lightgray;
+  height:100px;
+  width:250px;
+  float:left;
+  text-align:center;
+  padding:5px;
+  color:black;
+}
+div.pics img
+{
+  display:inline;
+  margin:5px;
+  border:1px solid #ffffff;
+  height:80px;
+  width:240px;
+	
+}
+div.pics a:hover img
+{
+border:1px ridge #235529;
+
+}
+.label
+{
+  text-align:center;
+  font:30px normal helvetica,arial,sans-serif;
+  width:auto;
+  margin-top:-65px;
+  margin-top:-65px;
+}
+
+
+.image
+{
+width:200px;
+height:150px;
+border:1px solid black;
+}
+.chart
+{
+width:50px;
+height:50px;
+border:1px solid black;
+}
+
+#editor
+{
+width:200px;
+height:300px;
+}
+
+form, p, span
+{  
+	margin:0;  
+	padding:0;
+}  
+input 
+{
+	font:12px arial; 
+}  
+a {  
+	color:#0000FF;  
+	text-decoration:none;
+}  
+a:hover
+{
+	text-decoration:underline;
+}  
+#wrapper, #loginform 
+{  
+	margin:0 auto;  
+	padding-bottom:25px;
+	background:#EBF4FB;  
+	width:200px;  
+	border:1px solid #ACD8F0;
+	margin-top:10px;}
+#loginform 
+{
+	padding-top:18px;
+}  
+#loginform p
+{ 
+	margin: 5px; 
+}  
+#chatbox {  
+	text-align:left;  
+	margin:0 auto;  
+	margin-bottom:25px;  
+	background:#fff;  
+	height:300px;  
+	width:170px;  
+	border:1px solid #ACD8F0;  
+	overflow:auto; 
+	color:black;
+	font:12px normal arial,helvetica,sans-serif;
+	padding-top:10px;
+	padding-right:10px;
+	padding-left:10px;
+} 
+#chat {  
+	text-align:left;  
+	margin:0 auto;  
+	margin-bottom:25px;  
+	background:#fff;  
+	height:auto;  
+	width:170px;  
+	border:1px solid #ACD8F0;  
+	overflow:auto; 
+	color:black;
+	font:12px normal helvetica,serif;
+	padding:10px 10px 10px 10px;
+}  	
+#usermsg {  
+	margin-left:5px;
+	width:185px;
+	height:20px;
+	border:1px solid #ACD8F0;
+	padding-left:5px;
+	background-color:#D8F781;
+}  
+#submitmsg 
+{ 
+	width: auto;
+	border:1px solid black;
+	height:auto;
+	margin:10px 0 0 140px;
+	background-color:#406618;
+	color:white;
+}  
+.error 
+{ 
+	color: #ff0000;
+}  
+#menu 
+{
+	padding:12.5px 25px 12.5px 25px;
+	color:black;
+}  
+.welcome 
+{ 
+	float:left;
+}  
+.logout 
+{ 
+	float:rightright; 
+}  
+.msgln 
+{ 
+	margin:0 0 2px 0;
+} 
+
+#chatbox  img
+{
+	padding-left:5px;
+}
+#small  img.offline
+{
+	background:url("images/offline.ico") no-repat;
+	padding-left:20px;
+}
+
+#content li
+{
+	font-size:14px;
+	list-style:disc;
+	font-size:13px;
+}
+
+#newstitle
+{
+	background:url('images/sideclip3.png')no-repeat;
+	margin-left:-44px;
+	padding-left:50px;
+	height:50px;
+	padding-top:5px;
+}
+
+#content a:link
+{
+	color:green;
+	font-size:11px;
+	font-weight:bold;	
+}
+
+#content a:hover
+{
+	color:orange;
+	text-decoration:underline;
+}
+
+#content td.jobs
+{
+	font-size:16px;
+	width:300px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#footer2
+{
+	background:url('http://cas.nvsu.edu.ph/images/footering.jpg') repeat-x;
+	width:auto;
+	height:auto;
+	color:white;
+	text-align:left;
+	margin:0 auto;
+	margin-top:-5px;
+	padding:10px 10px 0px 10px;
+	text-align:right;
+} 
+
+#footer {
+    background: url("http://cas.nvsu.edu.ph/images/footering.jpg") repeat-x;
+    height: auto;
+    font-size: 12pt;
+    color: #000;
+    clear: both;
+    line-height: normal;
+    width: 1050px;
+    font-family: "Arimo",helvetica, arial, sans-serif;
+    border-top: 10px solid darkgray;
+}
+
+#bar
+{
+	background:url(images/bar.png)repeat-x;
+	width:655px;
+	height:34px;
+	margin-left:-15px;
+	border-radius:0 0 0px 0px;
+	padding:0px 10px 0px 25px;
+}
+
+#bars
+{
+	background:url(images/bar.png)repeat-x;
+	width:230px;
+	height:34px;
+	border-radius:0 0 0px 0px;
+}
+
+#footing
+{
+	background:url('images/top2.png') repeat-x;
+	height:25px;
+	width:100%;
+	position:fixed;
+	bottom:0;
+	left:0;
+	text-align:left;
+}
+
+#footer2 .up
+{
+	float:left;
+	padding-top:5px;
+	font-size:18pt;
+	font-family:"Josefin Sans","Lao Ui",Helvetica,Arial,sans-serif;
+	padding-left:10px;
+	margin-right:0px;
+	font-weight: bold;
+	position: relative;
+}
+
+#pagination
+{
+	text-align:center;
+	margin:10px auto;
+	width:auto;
+	padding:5px;
+	font-family:"Lao Ui",Helvetica,Arial,sans-serif;
+	padding-top:0px;
+}
+#pagination ul li
+{
+	list-style:none;
+	display:inline;
+	padding:0 2px 0 2px;
+}
+
+#chart div.img
+{
+  margin:10px 5px 15px 25px;
+  border:1px solid lightgray;
+  height:auto;
+  width:80px;
+  float:left;
+  text-align:center;
+  padding:5px;
+  background-color:#252525;
+}
+#chart div.mypic
+{
+  margin:5px 5px 5px 5px;
+  border:1px solid lightgray;
+  height:auto;
+  width:auto;
+  float:left;
+  text-align:center;
+  padding:5px;
+}
+#chart div.mypic img
+{ 
+  display:inline;
+  margin:5px;
+  border:1px solid #ffffff;
+  width:170px;
+
+}
+#chart div.mypic a:hover img
+{
+border:1px ridge #235529;
+}
+
+#chart div.img img
+{
+  display:inline;
+  margin:5px;
+  border:1px  solid #ffffff;
+  width:70px;
+  height:70px;
+}
+#chart div.img a:hover img
+{
+border:1px ridge #235529;
+}
+#chart div.caption
+{
+  text-align:center;
+  font:normal 7px  calibri,sans-serif;
+  width:auto;
+  margin-top:0px;
+  padding:0;
+  color:white;
+}
+
+#chart td.dept
+{
+	border:1px solid black;
+	font-size:15px;
+	background-color:#ed1c24;
+	border-radius:10px 10px 0 0;
+}
+#chart .connector
+{
+	margin-top:0px;
+	float:left;
+	background:url('images/connector.png') no-repeat;
+}
+
+
+#footer
+{
+	background:url("http://cas.nvsu.edu.ph/images/footering.jpg") repeat-x;
+	height:auto;
+	font-size:12pt;
+	color:#000;
+	clear:both;
+	line-height:normal;
+	width:1050px;
+	font-family:"Arimo",helvetica, arial, sans-serif;
+	border-top:10px solid darkgray;
+	
+}
+
+#footer table
+{
+	margin-top: 0px;
+}
+
+#footer a:link
+{
+	color:white;
+	font-weight: bolder;
+}
+
+#footer img
+{
+	float:right;
+	width: 50px;
+}
+
+#footer h2
+{
+	font-family:"Arimo", georgia,serif;
+}
+
+#footer-second
+{
+	background:url("http://cas.nvsu.edu.ph/images/footer-second.png") repeat-x;
+	height:70px;
+	font-size:10pt;
+	color:#000;
+	line-height:normal;
+	width:1050px;
+	font-family:"josefi fans",helvetica, arial, sans-serif;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+#footer-second a
+{
+	color:yellowgreen;
+	font-weight: bold;
+	transition-delay:0.2s;
+}
+
+#footer-second a:hover
+{
+	color:darkred;
+	font-weight: bold;
+}
+
+#footer-second td
+{
+	color:white;
+	font-size:10px;
+	padding: 0px 20px 0px 20px;
+}
+
+#footer-second ul
+{
+	text-align: right;
+	list-style-type: none;
+}
+
+#content .tabs {
+  position: relative;   
+  height: 500px; /* This part sucks */
+  
+  margin: 25px 0;
+}
+#content .tab {
+  float: left;
+
+}
+#content .tab label {
+  background: #eee; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  margin-left: -1px; 
+  position: relative;
+  left: 1px; 
+  font-family: Cambria, "Lato", verdana, sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  border-radius: 10px 10px 0 0;
+}
+#content .tab label:hover {
+  background: #fdf32e; 
+}
+
+#content .tab [type=radio] {
+  display: none;   
+}
+#content .tab .content {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  background: white;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  height: auto;
+}
+#content [type=radio]:checked ~ label {
+  background: white;
+  border-bottom: 1px solid white;
+  z-index: 1;
+  background: #fef668;
+}
+#content [type=radio]:checked ~ label ~ .content {
+  z-index: 1;
+}
+
+#content .tab .date-box
+{
+position: relative;
+  top: 20px;
+  background-color:#e58d07;
+  padding: 15px 20px 25px 20px;
+  height: 40px;
+  width: 50px;
+  color:white;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 100%;
+  float: left;
+  border-radius: 10px;
+  font-family: "Century Gothic","Lao UI", sans-serif;
+  font-weight: normal;
+}
+
+
+#content .tab .date-box h2.month
+{
+  font-size:14pt;
+  font-weight: normal;
+}
+
+#content .tab .date-box h2.date
+{
+  font-size:24pt;
+  font-weight: bold;
+  line-height: 120%;
+}
+
+#content .tab .content span
+{
+	position: absolute;
+  color:black;
+  float: left;
+  margin-left: 20px;
+  font-family: "Abel", "Lato", Verdana, "Lao UI", sans-serif;
+  font-size:16pt;
+  margin-top: 25px;
+  line-height: 110%;
+}
+
+#content .tab .content p a
+{
+	position: absolute;
+  color:black;
+  float: left;
+  margin-left: 20px;
+  font-family: "Abel", "Lato", Verdana, "Lao UI", sans-serif;
+  font-size:15pt;
+  color:maroon;
+  margin-top: 60px;
+  font-weight: normal;
+}
+
+#content .tab .content .titles
+{
+  margin-top: 5px;
+  color:maroon;
+  margin-left: 20px;
+  font-family: "Abel", "Lato", Verdana, "Lao UI", sans-serif;
+  font-size:18pt;
+  font-weight: normal;
+}
+
+#content .tab .content .parag
+{
+  color:black;
+  margin-left: 20px;
+  font-family: "Abel", "Lato", Verdana, "Lao UI", sans-serif;
+  font-size:12pt;
+  font-weight: normal;
+  margin-top: 35px;
+}
+
+#content .tab .content img
+{
+  float:left;
+  width: 100px;
+  height: 100px;
+  border: 1px none black;
+  border-radius: 10px;
+}
+
+#content .tab .content span a
+{
+  margin-top: 5px;
+  color:maroon;
+  margin-left: 0px;
+  font-family: "Abel", "Lato", Verdana, "Lao UI", sans-serif;
+  font-size:18pt;
+  font-weight: normal;
+}
+
+#content .tab .content p
+{
+	margin-top: 15px;
+  	margin-left: 0px;
+  	font-family: "Abel", "Lato", Verdana, "Lao UI", sans-serif;
+  	font-size:14px;
+  	font-weight: normal;
+  	width: auto;
+  	overflow: hidden;
+}
+
+#content .tab .content ul li
+{
+	margin-top: 5px;
+  	margin-left: 0px;
+  	font-family: "Abel", "Lato", Verdana, "Lao UI", sans-serif;
+  	font-size:14px;
+  	font-weight: normal;
+  	width: auto;
+}
+
+#content .tab .labels {
+  background: #eee; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  margin-left: -1px; 
+  position: relative;
+  left: 1px; 
+  font-family: "Abel", "Lato", verdana, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  border-radius: 10px 10px 0 0;
+}
+
+#content .tabss {
+  position: relative;   
+  height: 1000px; /* This part sucks */
+  margin: 25px 0;
+}
+
+.image-officers
+{
+width:120px;
+height:120px;
+border:1px solid lightgray;	
+margin:5px;
+}
+
+.footer-top {
+	display: flex;
+	padding-block: 1em;
+}
+
+.footer-top .socials {
+	width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+	margin-inline: 1em;
+}
+#footer h2 {
+	margin-bottom: 0;
+}
+.footer-top .socials .social-links{
+	display: flex;
+}
+.footer-top .socials .social-links .facebook{
+	margin-right: 1em;
+}
+.footer-top .contact {
+	margin-left: 1em;
+}
+
+#footer-second {
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding-block: 1.5em;
+}
+
+#footer-second .copyright{
+	width: 60%;
+	padding-left: 1em;
+}
+
+#footer-second .after-copyright{
+	width: auto;
+	padding-right: 1em;
+}
+
+#footer-second .after-copyright ul {
+	margin-block: 0;
+}
+
+
+.side_nav nav ul {
+    padding: 0 10px 0 10px;
+    list-style: none;
+    display: flex;
+    font-size: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.side_nav {
+	background-position: bottom;
+	background-size: 20em;
+}
+
+.side_nav nav ul li:hover a {
+    color: #fff;
+}
+
+.side_nav nav ul li a {
+    display: block;
+    padding: 8px 14px 8px 14px;
+    color: #fff;
+    text-decoration: none;
+    /* border-right: 1px solid #333333; */
+}
+
+.side_nav nav ul {
+    padding: 0 10px 0 10px;
+    list-style: none;
+    display: flex;
+    font-size: 10px;
+    flex-direction: column!important;
+	background-color: #1e1e1e;
+}
+
+.side_nav {
+    background: url("http://cas.nvsu.edu.ph/images/top_bar_final.png") no-repeat;
+    width: auto;
+    height: 94px;
+    margin-top: 0 auto;
+    padding-left: 0px;
+    font-family: "Arimo","Lao UI", helvetica, sans-serif;
+}
+
+.side_nav {
+	visibility: hidden;
+}
+
+
+@media (max-width: 767px){
+	#content {
+		width: 70%;
+		background-size: contain;
+	}
+	#sidebar {
+		display: none;
+		width: 0;
+		margin-left:0;
+	}
+
+	#box {
+		visibility: hidden;
+	}
+
+	#slider {
+		height: 75vh;
+		background-size: cover;
+	}
+	p, #content .para-intro,
+	#content .news p,
+	#content .news h1 a:link{
+		font-size: 1.5em;
+	}
+	#content .news .small {
+		font-size: 1.1em;
+	}
+
+	#content a:link	{
+		font-size: 1.35em;
+	}
+
+	#footer {
+		background-size: 2em;
+	}
+
+	#footer,
+	#footer-second {
+		font-size: 1.5em;
+	}
+
+	.footer-top {
+		flex-direction: column;
+		height: auto;
+		align-items: center;
+		text-align: center;
+	}
+
+	.footer-top .socials {
+		align-items: center;
+	}
+
+	#footer-second {
+		flex-direction: column;
+		background-size: 2em;
+		height: 15em;
+		text-align: center;
+		align-items: center;
+	}
+
+	#footer-second .after-copyright{
+		padding-block: 1em;
+		text-align: center;
+		align-items: center;
+	}
+
+	#footer-second .after-copyright ul li{
+		text-align: center;
+	}
+
+	.side_nav {
+		visibility: visible!important;
+		font-size: 2em;
+	}
+	.side_nav a {
+		font-size: 1.75em;
+	}
+
+	#banner {
+		margin-top: -6em;
+	}
+
+	#top_nav {
+		visibility: hidden;
+	}
+	
+	#logo {
+		display: none;
+	}
+}
+
+@media (max-width: 350px){
+	p, #content .para-intro, 
+	#content .news p,
+	#content .news h1 a:link{
+		font-size: 1.89em;
+	}
+
+	#content .news .small {
+		font-size: 1.3em;
+	}
+
+
+	#footer {
+		font-size: 2.25em;
+	}
+}
